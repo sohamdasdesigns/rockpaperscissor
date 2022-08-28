@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    
+    height: 50%;
+}
+
+#clicks {
+    color: red;
+}
+
+button {
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: aliceblue;
+}
+
+#check {
+    background-color: green;
+    color: white;
+}
+
+#refresh {
+    background-color: beige;
+}
+
+#rock, #paper, #scissor {
+    background-color: aqua;
+}
