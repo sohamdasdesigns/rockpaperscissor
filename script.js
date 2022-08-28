@@ -59,44 +59,20 @@ refresh.addEventListener('click', function () {
 
 check.addEventListener('click', function () {
 
-    if (array[0] == 1 && array[1] == 3)
+    if (array[0] == 1 && array[1] == 3 || array[0] == 2 && array[1] == 1 || array[0] == 3 && array[1] == 2)
     {
         needCheck.innerHTML = '<h1>Player 1 win </h1> : <br> Restart game'; 
     }
-    if (array[0] == 1 && array[1] == 2)
+    if (array[0] == 1 && array[1] == 2 || array[0] == 2 && array[1] == 3 || array[0] == 3 && array[1] == 1)
     {
         needCheck.innerHTML = '<h1>Player 2 win </h1>: <br> Restart game'; 
     }
-    if (array[0] == 1 && array[1] == 1)
+    if (array[0] == 1 && array[1] == 1 || array[0] == 2 && array[1] == 2 || array[0] == 3 && array[1] == 3)
     {
         needCheck.innerHTML = '<h1>Players Draw </h1>: <br> Restart game'; 
     }
 
-    if (array[0] == 2 && array[1] == 1)
-    {
-        needCheck.innerHTML = '<h1>Player 1 win </h1>: <br> Restart game'; 
-    }
-    if (array[0] == 2 && array[1] == 3)
-    {
-        needCheck.innerHTML = '<h1>Player 2 win </h1>: <br> Restart game'; 
-    }
-    if (array[0] == 2 && array[1] == 2)
-    {
-        needCheck.innerHTML = '<h1>Players Draw </h1>: <br> Restart game'; 
-    }
-
-    if (array[0] == 3 && array[1] == 1)
-    {
-        needCheck.innerHTML = '<h1>Player 2 win </h1>: <br> Restart game'; 
-    }
-    if (array[0] == 3 && array[1] == 2)
-    {
-        needCheck.innerHTML = '<h1>Player 1 win  </h1>: <br> Restart game'; 
-    }
-    if (array[0] == 3 && array[1] == 3)
-    {
-        needCheck.innerHTML = '<h1>Players Draw  </h1>: <br> Restart game'; 
-    }
+    
 })
 
 
