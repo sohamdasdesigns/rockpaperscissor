@@ -72,7 +72,6 @@ check.addEventListener('click', function () {
         needCheck.innerHTML = '<h1>Players Draw </h1>: <br> Restart game'; 
     }
 
-    
 })
 
 
